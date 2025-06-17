@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.31)
+project(cpp_lessons)
+
+set(CMAKE_CXX_STANDARD 23)
+
+add_subdirectory(01_hello_world)
+# add_subdirectory(02_vars)
+# add_subdirectory(02_functions)
+# add_subdirectory(04_controls)
+# add_subdirectory(05_arrays_loops)
+# add_subdirectory(06_pointers)
+# add_subdirectory(07_classes)
+# add_subdirectory(08_inheritance)
+# add_subdirectory(09_polymorphism)
+# add_subdirectory(10_templates)
