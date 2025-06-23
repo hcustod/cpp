@@ -1,0 +1,1 @@
+add_executable(lesson06_pointers main.cpp)
