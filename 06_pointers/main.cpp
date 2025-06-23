@@ -6,7 +6,7 @@ int main() {
     int* ptr = &value; // Holds address of value;
 
     std::cout << "Value: " << value << std::endl;
-    std:cout << "Address of value (&value): " << &value << std::endl;
+    std::cout << "Address of value (&value): " << &value << std::endl;
     std::cout << "Pointer (ptr): " << ptr << std::endl;
     std::cout << "Dereferenced pointer (*ptr): " << *ptr << std::endl;
 
@@ -37,21 +37,21 @@ int main() {
     delete heapValue; // Free heap memory
 
     // Dynamic array
-    int* heapArrray = new int[3];
-    heapArrray[0] = 10;
-    heapArrray[1] = 20;
-    heapArrray[2] = 30;
+    int* heapArray = new int[3];
+    heapArray[0] = 10;
+    heapArray[1] = 20;
+    heapArray[2] = 30;
 
     std::cout << "Heap array:\n";
     for (int i = 0; i < 3; ++i) {
         std::cout << heapArray[i] << " ";
     }
     std::cout << "\n" << std::endl;
-    delete[] heapArrray;        // Always delete/ free allocated array
+    delete[] heapArray;        // Always delete/ free allocated array
 
     // Common dangers
     int* wildPtr;               // Uninitialized pointer -> undefined behaviour
-    // std:cout << *wildPtr;    // Dangerous
+    // std::cout << *wildPtr;    // Dangerous
 
     return 0;
 }
