@@ -1,1 +1,1 @@
-add_executable(lesson04_controls main.cpp)
+add_executable(lesson05_array_loops main.cpp)
