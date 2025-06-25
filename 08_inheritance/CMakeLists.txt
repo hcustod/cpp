@@ -1,0 +1,1 @@
+add_executable(lesson08_inheritance main.cpp)
