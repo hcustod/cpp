@@ -1,0 +1,1 @@
+add_executable(lesson00_polymorphism main.cpp)
