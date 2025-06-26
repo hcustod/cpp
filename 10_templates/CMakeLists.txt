@@ -1,0 +1,1 @@
+add_executable(lesson10_templates main.cpp)

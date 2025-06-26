@@ -1,1 +1,1 @@
-add_executable(lesson00_polymorphism main.cpp)
+add_executable(lesson09_polymorphism main.cpp)
